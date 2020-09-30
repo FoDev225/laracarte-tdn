@@ -2,6 +2,6 @@
 
 @section('container')
     
-    <h1 class="text-center">Laracarte - Map here</h1>
+    <h1 class="text-center">{{ config('app.name') }} - Map here</h1>
     
 @stop
