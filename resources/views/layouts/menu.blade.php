@@ -14,7 +14,7 @@
 	<link rel="stylesheet" href="{{ asset('css/bootstrap.css') }}">
 	<link rel="stylesheet" href="{{ asset('css/style.css') }}">
 
-	<title>Laracarte</title>
+	<title>{{ page_title($title ?? '') }}</title>
 	<style>
 		body
 		{

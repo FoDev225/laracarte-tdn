@@ -1,4 +1,4 @@
-@extends('layouts.menu')
+@extends('layouts.menu', ['title' => 'About'])
 
 @section('container')
     
@@ -12,7 +12,7 @@
     	</div>
     </div>
 
-    <p>Feel free to help to improve the <a href="#">source code.</a></p>
+    <p>Feel free to help to improve the <a href="https://github.com/FoDev225/laracarte-tdn" target="_blank">source code.</a></p>
 
     <hr>
 

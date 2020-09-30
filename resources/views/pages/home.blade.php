@@ -1,4 +1,4 @@
-@extends('layouts.menu')
+@extends('layouts.menu', ['title' => 'Home'])
 
 @section('container')
     
