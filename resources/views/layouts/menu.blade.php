@@ -15,23 +15,6 @@
 	<link rel="stylesheet" href="{{ asset('css/style.css') }}">
 
 	<title>{{ page_title($title ?? '') }}</title>
-	<style>
-		body
-		{
-			font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-		}
-
-		footer
-		{
-			margin-top: 5em;
-			margin-bottom: 2em;
-		}
-
-		h2
-		{
-			margin-top: 1em;
-		}
-	</style>
 </head>
 <body>
 	@include('partials.nav')

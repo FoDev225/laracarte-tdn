@@ -29,8 +29,8 @@
               <a class="dropdown-item" href="https://laravel-news.com">Laravel News</a>
               <a class="dropdown-item" href="https://larachat.co">Larachat</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contacts</a>
+          <li class="nav-item {{ set_active_route('contact_path') }}">
+            <a class="nav-link" href="{{ route('contact_path') }}">Contacts</a>
           </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">
