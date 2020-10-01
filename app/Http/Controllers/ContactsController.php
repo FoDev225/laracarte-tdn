@@ -25,8 +25,8 @@ class ContactsController extends Controller
     	// $message->save();
 
     	// $mailable = new MessageCrated($message);
-    	
-    	Mail::to(config('laracarte.admin_support_email'))->send(new MessageCrated($message));
+
+    	Mail::to(config('laracarte.admin_support_email'))->queue(new MessageCrated($message));
 
     	flashy('Nous vous répondrons dans les plus brefs délais !');
 
