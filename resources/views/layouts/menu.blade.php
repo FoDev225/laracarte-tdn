@@ -31,5 +31,7 @@
 	<script src="{{ asset('js/jquery-3.5.1.js') }}"></script>
     <script src="{{ asset('js/bootstrap.bundle.js') }}"></script>
     <script src="{{ asset('js/bootstrap.js') }}"></script>
+
+    @include('flashy::message')
 </body>
 </html>
